@@ -5,9 +5,9 @@ usePackage<-function(p){
   #   p: package name in quotes
   
   if (!is.element(p, installed.packages()[,1])){
-    print(paste("Package:",p,"Not found, Installing Now..."))
+    message(paste("Package:",p,"not found, installing now..."))
     install.packages(p, dep = TRUE)}
-  print(paste("Loading Package :",p))
+  message(paste("Loading Package:",p))
   require(p, character.only = TRUE)  
 }
 

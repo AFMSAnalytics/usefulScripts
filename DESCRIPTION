@@ -1,0 +1,13 @@
+Package: usefulScripts
+Type: Package
+Title: Collection of Utilitarian R Tools
+Version: 0.0.0.9000
+Authors@R: c(
+  person("Christopher", "Kittrell", email = "ckittrell@knowesis-inc.com", role = c("aut"))
+  , person("Mike", "DeCarlo", email = "mdecarlo@knowesis-inc.com", role = c("aut", "cre")))
+Description: This package is a collection of utilities with the aim of making R more user friendly for new users. The goal is to streamline processes necessary for using R while reducing the effort invested by the user. These utilities should allow new R users to get up and running and doing faster and with less frustration.
+Depends: R (>= 3.4.0)
+License: file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1.9000
